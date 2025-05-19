@@ -7,20 +7,12 @@ public class Bed {
     private int quilts;
     private String style;
 
-    public Bed(int pillows, int height, int sheets, int quilts,String style){
+    public Bed(String style, int pillows, int height, int sheets, int quilts){
         this.pillows=pillows;
         this.height=height;
         this.sheets=sheets;
         this.quilts=quilts;
         this.style=style;
-    }
-    public Bed(String pillowsString, int height, int sheets, int quilts, int styleInt) { ///
-        // String pillows parametresini görmezden gelip, sabit bir değer atayabilirsiniz
-        this.pillows = 2; // Varsayılan değer
-        this.height = height;
-        this.sheets = sheets;
-        this.quilts = quilts;
-        this.style = String.valueOf(styleInt); // int style'ı String'e dönüştür
     }
 
 

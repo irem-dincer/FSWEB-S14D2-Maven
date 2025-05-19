@@ -17,7 +17,7 @@ public class Main {
                 Ceiling ceiling = new Ceiling(300, PaintColor.WHITE);
 
                 // Yatak oluşturuluyor
-                Bed bed = new Bed(5, 200, 4, 2, "Genis");
+        Bed bed = new Bed("style", 200, 4, 2, 5);
 
                 // Lamba oluşturuluyor
         Lamp lamp = new Lamp(LampType.NORMAL, true, 100);
